@@ -10,7 +10,7 @@ def euclidean_trans(theta, tx, ty):
         [0, 0, 1]
     ])
 
-filename = '/Users/sadiq/Downloads/AVG lab 1/AVG lab 1/fig1_6c__.jpg' # Change this to your image path
+filename = '/Users/sadiq/Downloads/AVG lab 1/AVG lab 1/fig1_6c__.jpg' # Change this to your image path 
 img_bgr = cv2.imread(filename)
 if img_bgr is None:
     raise IOError(f"Cannot read image at {filename}")
